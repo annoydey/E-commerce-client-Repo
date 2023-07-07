@@ -1,15 +1,15 @@
 E-commerce – Online Shopping Website
 
 Features 
-Filter products by category
-Adding products to the cart
-Reviewing products
-Deleting products from the cart
-Increasing and Decreasing product quantities
-Clearing the cart
-Displaying a cart overview before checkout
-Implemented Google Firebase authentication system
-Inventory section, you can add products to the database and display them on the Home page (Log in with test email: annoydey@gmail.com && Password: 123456789) 
+* Filter products by category
+* Adding products to the cart
+* Reviewing products
+* Deleting products from the cart
+* Increasing and Decreasing product quantities
+* Clearing the cart
+* Displaying a cart overview before checkout
+* Implemented Google Firebase authentication system
+* Inventory section, you can add products to the database and display them on the Home page (Log in with test email: annoydey@gmail.com && Password: 123456789 || you can use Google Log In) 
 
 Technology Used    
 * React
