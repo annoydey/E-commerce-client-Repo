@@ -1,0 +1,13 @@
+.cart-containers{
+    margin-top: 6%;
+    border-radius: 0px 0px 12px 12px;
+    height: 100%;
+}
+.orders-container{
+    margin-top: 3%;
+}
+@media screen and (max-width:1100px) {
+    .orders-container{
+        width: 10%;
+    }
+}

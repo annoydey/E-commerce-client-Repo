@@ -1,0 +1,9 @@
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 3%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: #ff9900;
+  }
