@@ -83,7 +83,7 @@ const Order = () => {
                     ></ReviewItem>)
                 }
                 {
-                    cart.length === 0 && <h2 style={{ marginLeft: '5%', marginTop: '2%', width: '90%',padding: '20px 0px 20px 0px', textAlign: 'center', backgroundColor: 'whitesmoke', boxShadow: '0 0 5px rgba(0, 0, 0, 0.3)', color: 'black', borderRadius: '12px 12px 12px 12px'}}>Empty Cart</h2>
+                    cart.length === 0 && <h2 className='emptyCart'>Empty Cart</h2>
                 }
             </div>
             <div className='cart-containers'>

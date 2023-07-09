@@ -1,0 +1,31 @@
+.mobile-div ul {
+    text-align: start;
+    padding-left: 40%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.aboutFeatures {
+    text-align: start;
+    padding-left: 40%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+@media screen and (max-width: 1100px) {
+    .mobile-div {
+      margin-left: 5%;
+      margin-top: 2%;
+      font-size: 20px;
+      width: 90%;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      color: black;
+      border-radius: 12px;
+    }
+    .aboutFeatures {
+        text-align: start;
+        padding-left: 10%;
+        font-size: 20px;
+        margin-top: 2%;
+    }
+}

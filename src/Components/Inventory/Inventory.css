@@ -5,3 +5,9 @@
     left: 32%;
 }
 
+@media screen and (max-width: 768px) {
+    .managing-details{
+        width: 100%;
+        position:static;
+    }
+}

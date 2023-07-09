@@ -53,11 +53,11 @@ const Shipping = () => {
                         <form onSubmit={handleSubmitdetails} className="card-body">
                             <div className="form-control grid">
                                 <h1 className='mb-5 font-bold text-2xl'>Billing details</h1>
-                                <div className="grid grid-cols-2 gap-4">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                     <div>
                                         <input type="text" name='firstname' placeholder="First Name" className="input input-bordered" required />
                                     </div>
-                                    <div className='ml-5'>
+                                    <div>
                                         <input type="text" name='lastname' placeholder="Last Name" className="input input-bordered" required />
                                     </div>
                                 </div>

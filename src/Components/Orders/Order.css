@@ -6,8 +6,27 @@
 .orders-container{
     margin-top: 3%;
 }
+.emptyCart{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: black;
+    border-radius: 12px;
+}
 @media screen and (max-width:1100px) {
     .orders-container{
         width: 10%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .emptyCart {
+        width: 80%;
+        margin-left: 100%;
+        margin-top: 100%;
+        padding: 20px 70px 20px 40px;
     }
 }

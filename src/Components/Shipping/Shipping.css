@@ -44,3 +44,11 @@
         margin-left: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .billing-details{
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+}
